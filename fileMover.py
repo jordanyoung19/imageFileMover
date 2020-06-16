@@ -8,10 +8,13 @@ airDropPath = "/Users/jordanyoung/Pictures/airDrop"
 def running():
     running = True
     while running:
+        print("running")
         for filename in os.listdir(downloadsPath):
-            if filename.endswith(".heic"):
-                shutil.move(filename, airDropPath)
+            print("filename:", filename)
+            if filename.endswith(".HEIC"):
+                fileToMove = downloadsPath + '/' + filename
+                shutil.move(fileToMove, airDropPath)
         time.sleep(2)
-    
+
 if __name__ == "__main__":
     running()
