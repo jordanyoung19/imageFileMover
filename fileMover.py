@@ -1,0 +1,1 @@
+# script to move airdropped photos from 
