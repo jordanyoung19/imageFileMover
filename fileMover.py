@@ -2,8 +2,8 @@ import time
 import shutil
 import os
 
-downloadsPath = "/Users/jordanyoung/Downloads"
-airDropPath = "/Users/jordanyoung/Pictures/airDrop"
+downloadsPath = "downloads folder path here"
+destinationPath = "path to folder you want to move pictures too"
 
 def running():
     running = True
